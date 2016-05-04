@@ -2,23 +2,30 @@
 layout: default
 ---
 
-<div class="home">
+<!-- Introduction -->
+<p class="intro">{{ site.intro }}</p>
+<p class="intro">{{ site.intromore }}</p>
 
-  <p class="intro">{{ site.intro }}</p>
-  <p class="intro">{{ site.intromore }}</p>
-
-  <h1 class="page-heading">The Awards</h1>
-  <ul class="post-list">
-    {% for post in site.posts %}
-    <!-- TODO: layout for the award -->
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
+<!-- Actual awards -->
+<h1>The Awards</h1>
+<div class="awards-list">
+  <!-- TODO: style the awards -->
+  {% for post in site.posts %}
+    <!-- Each award -->
+    <h2>{{ post.title }}</h2>
+    
+    <h3>Presenters</h3>
+    <ul class="presenters">
+    {% for presenter in post.presenters %}
+      <li>{{ presenter }}</li>
     {% endfor %}
-  </ul>
-<!-- TODO: FOOTER -->
+    </ul>
+
+    <h3>Nominees</h3>
+    <ul class="nominees">
+    {% for nominee in post.nominees %}
+      <li>{{ nominee }}</li>
+    {% endfor %}
+    </ul>
+  {% endfor %}
 </div>

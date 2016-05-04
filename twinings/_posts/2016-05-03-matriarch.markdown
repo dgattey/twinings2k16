@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Department Matriach"
 presenters:
 - Mike Burns

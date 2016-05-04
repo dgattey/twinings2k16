@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Highest Score in twd's Urinal First Person Shooter"
 presenters:
 - Ardra Hren

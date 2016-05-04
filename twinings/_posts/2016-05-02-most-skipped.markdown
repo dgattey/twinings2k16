@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Most Skipped Course"
 presenters: 
 - Cody Ma

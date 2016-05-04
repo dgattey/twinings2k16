@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Most Likely to Never stop TA-ing an Intro Sequence"
 presenters:
 - Aisha Ferrazares
