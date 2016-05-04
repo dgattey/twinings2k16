@@ -9,7 +9,14 @@ description: >
 baseurl: ""
 permalink: /:title/ #posts
 url: "http://thetwinings.org/"
-logo: assets/Logo.png
+logo: /assets/Logo.png
+date: "May 3rd"
+location: "72 Waterman St"
+intro: >
+  The Twining Awards are a CS department tradition, older than Andy and John Savage combined. They are a chance for the seniors in and their friends to highlight that which is significant in our department, and then make fun of those things. There will be snacks and champagne, as well as anything else you deign to bring.
+intromore: >
+  We would be deeply grateful for your RSVP via the email sent out previously. Prepare an acceptance speech for the awards for which you are nominated. Formal attire required. Donations greatly appreciated; this is not a sponsored event.
+
 
 # Build settings
 markdown: kramdown

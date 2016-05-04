@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Least Likely to Show up to This"
+presenters:
+- Greg Yauney
+- Ellis Hershkowitz
+nominees:
+- Alec Meade
+- Andy Chen
+- Arun Varma
+- Kappi Patterson
+- Noah Fradin
+---
