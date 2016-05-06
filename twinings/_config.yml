@@ -9,7 +9,7 @@ description: >
 baseurl: ""
 permalink: /:title/ #posts
 url: "http://thetwinings.org/"
-logo: /assets/Logo.png
+logo: /assets/Logo2.png
 date: "May 3rd"
 location: "72 Waterman St"
 intro: >
