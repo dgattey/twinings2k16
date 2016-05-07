@@ -1,8 +1,7 @@
 ---
 title: "Most Skipped Course"
 presenters: 
-- Cody Ma
-- Jason Hu
+- Cody Ma & Jason Hu
 nominees:
 - CS4
 - CS180

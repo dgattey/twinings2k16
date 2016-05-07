@@ -1,8 +1,7 @@
 ---
 title: "Least Likely to Show up to This"
 presenters:
-- Greg Yauney
-- Ellis Hershkowitz
+- Greg Yauney & Ellis Hershkowitz
 nominees:
 - Alec Meade
 - Andy Chen

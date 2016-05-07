@@ -1,15 +1,16 @@
-body {
-	@include container(12 center static);
+/**
+ * Containers
+ */
+.page, .site-footer, .site-header {
+	@include container(12 center nest);
 }
-.page, .site-footer {
-	@include span(12 of 12);
-}
+
 
 /**
  * Site header
  */
 .site-header {
-	padding: 20px;
+	padding: 20px 0;
 	height: $nav-height;
 }
 .logo {
@@ -17,7 +18,7 @@ body {
 }
 .tag-line {
 	line-height: $nav-height;
-	font-family: 'Crimson Text'; // TODO: make real
+	font-family: $alt-font-family;
 	font-style: italic;
 	font-size: 24px;
 	float: right;
@@ -32,20 +33,94 @@ body {
 }
 
 .footer-heading {
-    font-size: 18px;
     margin-bottom: $spacing-unit / 2;
 }
 
 /**
  * Page content
  */
-.page {
+ h2 {
+ 	font-size: 1.1em;
+ }
+
+h3 {
+	font-size: 0.9em;
+	text-transform: uppercase;
+}
+
+.intro-area {
     padding: $spacing-unit 0;
+}
+.page {
+	padding-bottom: $spacing-unit;
+}
+
+.banner {
+	line-height: 5.25em;
+	background: $color-highlight;
+	.title {
+		@include container(12 center);
+		h1 {
+			color: $color-tan;
+			font-family: $alt-font-family;
+			font-style: italic;
+			font-size: 2.5em;
+		}
+	}
+}
+
+.awards-list {
+	padding-top: gutter()/4;
 }
 
 .award-card {
-	@include gallery(6 of 12);
-	margin-bottom: gutter();
+	@include gallery(4 of 12);
+	margin-bottom: gutter()/3;
 	background: $color-dark;
-	// padding: 10px;
+	.card-data {
+		padding: gutter();
+		@include container(12 of 12);
+	}
+	.title, .datum {
+		color: $color-tan;
+		margin-bottom: 0;
+	}
+	.header {
+		@include container(12 of 12 nest);
+		height: 90px;
+	}
+	.award-image {
+		@include span(5 of 12);
+		height: 100%;
+	}
+	.title {
+		@include span(7 of 12 last);
+		text-align: right;
+	}
+	.datum {
+		font-size: $small-font-size;
+		letter-spacing: 0.3px;
+		font-weight: 300;
+		list-style: none;
+	}
+	p.presenters {
+		@include span(7 of 12 last);
+		line-height: 1.5em;
+		margin: 0;
+		margin-top: 1em;
+		font-size: $smaller-font-size;
+	}
+	.subheading {
+		margin-top: 1em;
+		font-size: $small-font-size;
+		font-weight: 500;
+		letter-spacing: 1px;
+		&.presenters {
+			@include span(5 of 12);
+		}
+		margin-top: gutter();
+	}
+	ul {
+		margin-left: 0;
+	}
 }

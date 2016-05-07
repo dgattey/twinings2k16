@@ -16,9 +16,11 @@ $color-highlight: #371D44;
 
 // Fonts
 $base-font-family: "Whitney HTF", Helvetica, Arial, sans-serif;
+$alt-font-family: "Crimson Text", Georgia, serif;
 $base-font-size:   18px;
 $base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
+$small-font-size:  $base-font-size * 0.9;
+$smaller-font-size:  $base-font-size * 0.835;
 $base-line-height: 1.5;
 
 // Spacing
@@ -38,7 +40,8 @@ $nav-height:	70px;
 }
 
 $susy: (
-  column-width: 3em
+  column-width: 3.5em,
+  gutters: 2/5
 );
 
 // Import partials from `_sass`

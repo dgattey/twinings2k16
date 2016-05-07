@@ -1,33 +1,42 @@
 ---
 layout: default
 ---
-
 <!-- Introduction -->
-<p class="intro">{{ site.intro }}</p>
-<p class="intro">{{ site.intromore }}</p>
+<div class="page intro-area">
+  <p class="intro">{{ site.intro }}</p>
+  <p class="intro">{{ site.intromore }}</p>
+</div>
+
+<!-- Award Title -->
+<div class="banner">
+  <div class="title">
+    <h1>The Awards</h1>
+  </div>
+</div>
 
 <!-- Actual awards -->
-<h1>The Awards</h1>
-<div class="awards-list">
-  <!-- TODO: style the awards -->
-  {% for post in site.posts %}
-    <!-- Each award -->
-    <div class="award-card">
-      <h2>{{ post.title }}</h2>
-      
-      <h3>Presenters</h3>
-      <ul class="presenters">
-      {% for presenter in post.presenters %}
-        <li>{{ presenter }}</li>
-      {% endfor %}
-      </ul>
-
-      <h3>Nominees</h3>
-      <ul class="nominees">
-      {% for nominee in post.nominees %}
-        <li>{{ nominee }}</li>
-      {% endfor %}
-      </ul>
-    </div>
-  {% endfor %}
+<div class="page">
+  <div class="awards-list">
+    {% for post in site.posts %}
+      <!-- Each award -->
+      <div class="award-card">
+        <div class="card-data">
+          <div class="header">
+            <img class="award-image">
+            <h2 class="title">{{ post.title }}</h2>
+          </div>
+          
+          <h3 class="subheading">Nominees</h3>
+          <ul class="nominees">
+          {% for nominee in post.nominees %}
+            <li class="datum">{{ nominee }}</li>
+          {% endfor %}
+          </ul>
+          
+          <h3 class="subheading presenters">Presenters</h3>
+          <p class="datum presenters">{{ post.presenters }}</p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
 </div>
