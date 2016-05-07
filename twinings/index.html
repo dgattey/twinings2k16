@@ -12,20 +12,22 @@ layout: default
   <!-- TODO: style the awards -->
   {% for post in site.posts %}
     <!-- Each award -->
-    <h2>{{ post.title }}</h2>
-    
-    <h3>Presenters</h3>
-    <ul class="presenters">
-    {% for presenter in post.presenters %}
-      <li>{{ presenter }}</li>
-    {% endfor %}
-    </ul>
+    <div class="award-card">
+      <h2>{{ post.title }}</h2>
+      
+      <h3>Presenters</h3>
+      <ul class="presenters">
+      {% for presenter in post.presenters %}
+        <li>{{ presenter }}</li>
+      {% endfor %}
+      </ul>
 
-    <h3>Nominees</h3>
-    <ul class="nominees">
-    {% for nominee in post.nominees %}
-      <li>{{ nominee }}</li>
-    {% endfor %}
-    </ul>
+      <h3>Nominees</h3>
+      <ul class="nominees">
+      {% for nominee in post.nominees %}
+        <li>{{ nominee }}</li>
+      {% endfor %}
+      </ul>
+    </div>
   {% endfor %}
 </div>

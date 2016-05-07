@@ -42,3 +42,10 @@ body {
 .page {
     padding: $spacing-unit 0;
 }
+
+.award-card {
+	@include gallery(6 of 12);
+	margin-bottom: gutter();
+	background: $color-dark;
+	// padding: 10px;
+}
