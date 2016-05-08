@@ -10,7 +10,7 @@
  * Site header
  */
 .site-header {
-	padding: 20px 0;
+	padding: 40px 0;
 	height: $nav-height;
 }
 .logo {
@@ -25,18 +25,6 @@
 }
 
 /**
- * Site footer
- */
-.site-footer {
-    border-top: 1px solid $color-mute;
-    padding: $spacing-unit 0;
-}
-
-.footer-heading {
-    margin-bottom: $spacing-unit / 2;
-}
-
-/**
  * Page content
  */
  h2 {
@@ -46,10 +34,6 @@
 h3 {
 	font-size: 0.9em;
 	text-transform: uppercase;
-}
-
-.intro-area {
-    padding: $spacing-unit 0;
 }
 .page {
 	padding-bottom: $spacing-unit;
@@ -116,11 +100,23 @@ h3 {
 		font-weight: 500;
 		letter-spacing: 1px;
 		&.presenters {
+			margin-top: 1em;
 			@include span(5 of 12);
 		}
 		margin-top: gutter();
 	}
 	ul {
 		margin-left: 0;
+	}
+}
+
+.intro-area {
+    padding: $spacing-unit 0;
+	img {
+		margin: $spacing-unit 0;
+		float: left;
+	}
+	p {
+		@include span(10 of 12 last);
 	}
 }
