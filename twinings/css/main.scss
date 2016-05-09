@@ -2,39 +2,11 @@
 # Base SCSS - imports all other scss
 ---
 @charset "utf-8";
+@import "normalize/import-now"; // Normalizes
 
-// Normalizes
-@import "normalize/import-now";
-
-// Colors
-$color-darkest: #222222;
-$color-dark: #2C2C2C;
-$color-mute: #7F7970;
-$color-tan: #E2D3B9;
-$color-white: #E8E3D9;
-$color-highlight: #371D44;
-
-// Fonts
-$base-font-family: "Whitney HTF", Helvetica, Arial, sans-serif;
-$alt-font-family: "Crimson Text", Georgia, serif;
-$base-font-size:   18px;
-$base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.9;
-$smaller-font-size:  $base-font-size * 0.835;
-$base-line-height: 1.5;
-
-// Spacing
-$spacing-unit: 30px;
-$nav-height: 70px;
-$page-gutter: 20px;
-
-$susy: (
-  column-width: 3.25em,
-  gutters: 2/5
-);
-
-// Import partials from `_sass`
 @import
+	"fonts",
+	"consts",
 	"susy",
     "base",
     "layout",
