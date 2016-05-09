@@ -24,20 +24,9 @@ $smaller-font-size:  $base-font-size * 0.835;
 $base-line-height: 1.5;
 
 // Spacing
-$spacing-unit:     30px;
-$nav-height:	70px;
-
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
+$spacing-unit: 30px;
+$nav-height: 70px;
+$page-gutter: 20px;
 
 $susy: (
   column-width: 3.25em,
@@ -48,5 +37,6 @@ $susy: (
 @import
 	"susy",
     "base",
-    "layout"
+    "layout",
+    "responsive"
 ;

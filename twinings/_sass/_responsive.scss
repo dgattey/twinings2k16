@@ -1,0 +1,72 @@
+// Mixin for media queries
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+// Reflowing awards cards
+@include media-query(940px) {
+	.award-card {
+		p.presenters {
+			@include span(12 of 12);
+			margin-top: 0;
+		}
+		.subheading.presenters {
+			@include span(12 of 12);
+		}
+	}
+}
+
+// Logo and intro reflow, awards cards 2 wide
+@include media-query(760px) {
+	.award-card {
+		@include gallery(6 of 12);
+	}
+	.site-title, .tag-line {
+		@include span(12 of 12);
+		text-align: center;
+	}
+	.tag-line {
+		line-height: initial;
+    	margin-top: 1em;
+	}
+	.intro {
+		@include span(12 of 12);
+		text-align: center;
+	}
+	.intro-area {
+		p {
+			@include span(8 of 12);
+	    	float: none;
+	   		margin-left: auto;
+	   		margin-right: auto;
+			text-align: left;
+		}
+		img {
+			float: none;
+		}
+	}
+}
+
+// Awards cards are 1 wide on the grid
+@include media-query(500px) {
+	.intro-area p {
+		@include span(12 of 12);
+	}
+	.award-card {
+		@include gallery(12 of 12);
+		text-align: center;
+	    clear: both !important; // necessary for 12 of 12 gallery
+	    margin-bottom: gutter();
+		.award-image {
+			@include span(12 of 12);
+			margin: 0 auto;
+		}
+		.title {
+			@include span(12 of 12);
+			margin: 20px 0;
+			text-align: center;
+		}
+	}
+}

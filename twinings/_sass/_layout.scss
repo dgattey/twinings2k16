@@ -1,8 +1,9 @@
 /**
  * Containers
  */
-.page, .site-footer, .site-header {
+.page, .site-header, .banner .title {
 	@include container(12 center nest);
+	padding: 0 $page-gutter;
 }
 
 
@@ -10,7 +11,7 @@
  * Site header
  */
 .site-header {
-	padding: 40px 0;
+	padding: 40px $page-gutter;
 	height: $nav-height;
 }
 .logo {
@@ -43,7 +44,6 @@ h3 {
 	line-height: 5.25em;
 	background: $color-highlight;
 	.title {
-		@include container(12 center);
 		h1 {
 			color: $color-tan;
 			font-family: $alt-font-family;
@@ -111,7 +111,7 @@ h3 {
 }
 
 .intro-area {
-    padding: $spacing-unit 0;
+    padding: $spacing-unit $page-gutter;
 	img {
 		margin: $spacing-unit 0;
 		float: left;
