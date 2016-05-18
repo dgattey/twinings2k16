@@ -1,0 +1,10 @@
+---
+title: "Permanent intro class TA"
+img: "diamond.png"
+presenters:
+nominees:
+- Sarah Sachs
+- Alexa Van Hattum
+- Paige Stoermer 
+- Nick Schank
+---

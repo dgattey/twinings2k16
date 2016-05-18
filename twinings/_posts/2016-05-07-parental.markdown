@@ -1,0 +1,10 @@
+---
+title: "Most parental"
+img: "parent.png"
+presenters:
+nominees:
+- Alexa van Hattum
+- Sarah Sachs
+- Frank Goodman
+- Paige Stoermer
+---

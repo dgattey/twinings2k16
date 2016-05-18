@@ -1,0 +1,9 @@
+---
+title: "Most likely to have used the CIT shower"
+img: "shower.png"
+presenters:
+nominees:
+- David Sasson
+- Nick Byman
+- Albie Brown
+---

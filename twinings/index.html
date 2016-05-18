@@ -22,12 +22,12 @@ layout: default
 <!-- Actual awards -->
 <div class="page">
   <div class="awards-list">
-    {% for post in site.posts %}
+    {% for post in site.posts reversed %}
       <!-- Each award -->
       <div class="award-card">
         <div class="card-data">
           <div class="header">
-            <img class="award-image">
+            <img class="award-image" src="assets/{{ post.img }}">
             <h2 class="title">{{ post.title }}</h2>
           </div>
           
@@ -38,8 +38,10 @@ layout: default
           {% endfor %}
           </ul>
           
+          {% if post.presenters %}
           <h3 class="subheading presenters">Presenters</h3>
           <p class="datum presenters">{{ post.presenters }}</p>
+          {% endif %}
         </div>
       </div>
     {% endfor %}

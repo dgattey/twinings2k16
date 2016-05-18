@@ -1,0 +1,10 @@
+---
+title: "Most likely to get stuck in the CIT elevators"
+img: "elevate.png"
+presenters:
+nominees:
+- Sam Brebner
+- Arun Varma
+- Ileana Wu
+- CS 33 TAs, Fall 2014
+---

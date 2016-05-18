@@ -1,0 +1,10 @@
+---
+title: "Most likely to hack the mainframe"
+img: "hack.png"
+presenters:
+nominees:
+- Ross Friedman-Mandel
+- Joe Stein
+- Dan Haugh
+- Sam Kortchmar
+---

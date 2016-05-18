@@ -1,0 +1,10 @@
+---
+title: "Least likely to want to win an award"
+img: "eyeroll.png"
+presenters:
+nominees:
+- Eddie Lee 
+- Dan Rothman
+- Ankit Shah
+- Jake Rosenfeld
+---

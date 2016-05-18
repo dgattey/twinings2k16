@@ -1,0 +1,10 @@
+---
+title: "Most likely to win the CIT hunger games"
+img: "hunger.png"
+presenters:
+nominees:
+- Mike Thiesmeyer
+- David Sasson
+- Taylor DeRosa
+- Priya Patel
+---

@@ -1,0 +1,10 @@
+---
+title: "Most likely to be called by their login"
+img: "login.png"
+presenters:
+nominees:
+- codyma
+- bkoatz
+- skainswo
+- ers3
+---

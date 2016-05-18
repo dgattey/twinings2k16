@@ -1,0 +1,10 @@
+---
+title: "Cutest HTA dream team"
+img: "crown.png"
+presenters:
+nominees:
+- Vinh Tran, Gabe Lyons, & Jessica Liang
+- Dylan Gattey, Advik Iyer Guha, & Ian Reardon
+- Kenneth Lin, Angelia Wang, & Nick Schank 
+- Libby Zorn & Eli Rosenthal
+---

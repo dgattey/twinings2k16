@@ -1,0 +1,10 @@
+---
+title: "Best sorting algorithm"
+img: "sort.png"
+presenters:
+nominees:
+- Quantum Bogosort
+- MiracleSort
+- BubbleSort
+- HalfHearted MergeSort
+---

@@ -18,11 +18,11 @@
 	max-height: $nav-height;
 }
 .tag-line {
-	line-height: $nav-height;
 	font-family: $alt-font-family;
 	font-style: italic;
 	font-size: 24px;
 	float: right;
+	text-align: right;
 }
 
 /**
@@ -74,7 +74,6 @@ h3 {
 		height: 90px;
 	}
 	.award-image {
-		@include span(5 of 12);
 		height: 100%;
 	}
 	.title {

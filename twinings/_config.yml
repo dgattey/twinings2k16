@@ -10,12 +10,20 @@ baseurl: ""
 permalink: /:title/ #posts
 url: "http://thetwinings.org/"
 logo: assets/logo.png
-date: "May 3rd"
-location: "72 Waterman St"
+date: "8pm on May 18th"
+location: "The Delta Tau Estate: Olney on Wriston Quad"
 intro: >
-  The Twining Awards are a CS department tradition, older than Andy and John Savage combined. They are a chance for the seniors in and their friends to highlight that which is significant in our department, and then make fun of those things. There will be snacks and champagne, as well as anything else you deign to bring.
+  The Academy humbly requests the honor of your presence for the
+  Eighth Annual Twining Awards Ceremony. This unofficial Computer
+  Science Department tradition, older than Andy and John Savage
+  combined, is an awards ceremony for the senior class to highlight
+  that which is significant in our department (and by significant, we
+  mean nostalgic and/or meaningless).There will be snacks and
+  champagne, as well as anything else you care to bring.
 intromore: >
-  We would be deeply grateful for your RSVP via the email sent out previously. Prepare an acceptance speech for the awards for which you are nominated. Formal attire required. Donations greatly appreciated; this is not a sponsored event.
+  Prepare an acceptance speech for the awards for which you are nominated. Formal attire required.
+  Donations greatly appreciated; this is not a sponsored event. Venmo @AlexaVanHattum or cash to
+  any of the Academy.
 
 
 # Build settings
